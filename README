@@ -1,0 +1,13 @@
+Filename: getkeypress.c
+Author: Joseph d'Eon
+Description:
+  This C module is meant to be made into a Python module of the same name.
+  To build, run make. Making creates a .so file in this directory. As long
+  as the .so file is in the directory, getkeypress can be imported into a 
+  python program. 
+
+  getkeypress hangs until a key is pressed by the keyboard(global keypress),
+  then returns the key pressed in the form of a string. To test return values,
+  simply try running the python script you have made and print the result
+  of getkeypress in a while true loop. This will allow you to see the exact 
+  string value for each key.
